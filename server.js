@@ -7,8 +7,10 @@ const Image = require("./models/giphyModel.js");
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
+var MONGO_URI = process.env.mongoose_URI || "mongodb://localhost/giphy";
+mongoose.connect (MONGO_URI);
 
-mongoose.connect("mongodb://localhost/giphy", {useNewUrlParser:true});
+// mongoose.connect("mongodb://localhost/giphy", {useNewUrlParser:true});
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
