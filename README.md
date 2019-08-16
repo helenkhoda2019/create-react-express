@@ -14,4 +14,4 @@ npm start
 my app should now be running on <http://localhost:3001>. The Express server should intercept any AJAX requests from the client.
  
  Here is how it appear on localhost:
- ![Homepage](https://github.com/helenkhoda2019/EATDABURGER/blob/master/final.png)
+ ![Homepage](https://github.com/helenkhoda2019/create-react-express/blob/master/clicky.png)
