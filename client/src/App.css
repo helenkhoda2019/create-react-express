@@ -1,0 +1,13 @@
+/* .navbar {
+    color: blue;
+} */
+.nav{
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
